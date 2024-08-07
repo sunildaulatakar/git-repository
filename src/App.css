@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;700;900&family=Urbanist:wght@300;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Urbanist', sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.title {
+  font-weight: bolder;
+     
+}
+
+.card {
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-text {
+  color: #555;
+}
+
+.list-group-item {
+  background: transparent;
+  border: none;
+  padding: 0.75rem 0;
+}
